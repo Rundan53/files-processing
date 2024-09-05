@@ -1,0 +1,14 @@
+{
+  "singleQuote": false,
+  "printWidth": 80,
+  "semi": true,
+  "plugins": ["prettier-plugin-organize-imports"],
+  "overrides": [
+    {
+      "files": "*.js",
+      "options": {
+        "newline-per-chained-call": true
+      }
+    }
+  ]
+}
